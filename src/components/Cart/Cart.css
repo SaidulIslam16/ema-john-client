@@ -1,0 +1,49 @@
+.cart {
+    position: sticky;
+    top: 20px;
+    margin: 20px 0;
+}
+
+.grand-total {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cart h3 {
+    /* background-color: orange; */
+    font-size: 25px;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.btn-clear,
+.btn-review {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0;
+    border: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.btn-clear {
+    background-color: #FF3030;
+}
+
+.btn-clear:hover {
+    background-color: #e52323;
+}
+
+.btn-review {
+    background-color: #F90;
+}
+
+.btn-review:hover {
+    background-color: rgb(230, 139, 2);
+}
